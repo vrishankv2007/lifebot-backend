@@ -1,6 +1,6 @@
 const io = require('socket.io-client');
 // Connecting to our own server
-const socket = io('http://localhost:5000'); 
+const socket = io(' https://lifebot-backend-u26q.onrender.com'); 
 
 // Starting coordinates (Bengaluru)
 let currentLat = 12.9716;
